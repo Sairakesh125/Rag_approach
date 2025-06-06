@@ -1,0 +1,20 @@
+# Virtual environments
+venv/
+rakesh/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Logs and outputs
+*.json
+*.log
+output/
+
+# OS/Editor junk
+.DS_Store
+.vscode/
+*.swp

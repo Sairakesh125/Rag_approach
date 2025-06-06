@@ -1,0 +1,21 @@
+# transformers==4.41.1
+# sentence-transformers==2.5.1
+# keybert==0.7.0
+# scikit-learn==1.4.2
+# torch>=2.0
+# PyMuPDF==1.23.22
+# python-dotenv==1.0.1
+# openai>=1.30.1       # For Azure OpenAI API (you’re using the new SDK)
+# pinecone-client>=3.0.0  # For Pinecone vector DB access
+
+transformers==4.41.1
+sentence-transformers==2.5.1
+keybert==0.7.0
+scikit-learn==1.4.2
+torch>=2.0
+PyMuPDF==1.23.22
+python-dotenv==1.0.1
+openai>=1.30.1                      # For Azure OpenAI or OpenAI API
+pinecone-client>=3.0.0             # Correct Pinecone SDK
+spacy==3.7.4                        # You are using spaCy for NER
+PyPDF2==3.0.1                       # Explicitly required by your code
