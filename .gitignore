@@ -1,20 +1,31 @@
 # Virtual environments
+# Virtual env and local folders
 venv/
 rakesh/
 
-# Python cache
+# Python bytecode
 __pycache__/
 *.pyc
 
 # Environment variables
 .env
 
-# Logs and outputs
-*.json
+# Logs and generated files
 *.log
 output/
+output/*.json
+output_responses/*.json
 
-# OS/Editor junk
-.DS_Store
+# Editor/OS files
 .vscode/
+.DS_Store
 *.swp
+
+# Jupyter and temp files
+.ipynb_checkpoints/
+*.tmp
+*.bak
+
+# Optional test artifacts
+__tests__/
+test_results/
